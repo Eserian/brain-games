@@ -1,8 +1,8 @@
 {
   "name": "asdsds",
-  "version": "1.0.6",
-  "description": "",
-  "main": "index.js",
+  "version": "1.0.7",
+  "description": "First Hexlet project",
+  "main": "",
   "files": [
     "dist"
   ],
@@ -17,23 +17,22 @@
     "type": "git",
     "url": "git+https://github.com/Eserian/project-lvl1-s332.git"
   },
-  "author": "",
+  "author": "Evgenii Shevchenko",
   "license": "ISC",
   "dependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
-    "babel-eslint": "^8.2.6",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-stage-0": "^6.24.1",
-    "eslint": "^5.4.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.14.0",
     "readline-sync": "^1.4.9"
   },
   "bin": {
     "brain-games": "dist/bin/brain-games.js"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0"
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.6",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^4.4.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
   }
 }
