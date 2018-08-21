@@ -1,6 +1,6 @@
 # project-lvl1-s332
 
-<a href="https://codeclimate.com/github/Eserian/project-lvl1-s332"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
+[![Maintainability](https://codeclimate.com/github/Eserian/project-lvl1-s332/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/Eserian/project-lvl1-s332)
 
 <a href="https://github.com/Eserian/project-lvl1-s332"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage" /></a>
 
