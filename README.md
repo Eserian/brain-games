@@ -6,4 +6,4 @@
 
 [![Build Status](https://travis-ci.org/Eserian/project-lvl1-s332.svg?branch=master)](https://travis-ci.org/Eserian/project-lvl1-s332)
 
-[![asciicast](https://asciinema.org/a/C8jUPPAy1S37ZGXYlgJHF9tUH.png)](https://asciinema.org/a/C8jUPPAy1S37ZGXYlgJHF9tUH)
+[![asciicast](https://asciinema.org/a/DWY6C2g3lJbXuEDUKDs6uvQEN.png)](https://asciinema.org/a/DWY6C2g3lJbXuEDUKDs6uvQEN)
