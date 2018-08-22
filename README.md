@@ -5,3 +5,5 @@
 [![Issue Count](https://codeclimate.com/github/Eserian/project-lvl1-s332/badges/issue_count.svg)](https://codeclimate.com/github/Eserian/project-lvl1-s332)
 
 [![Build Status](https://travis-ci.org/Eserian/project-lvl1-s332.svg?branch=master)](https://travis-ci.org/Eserian/project-lvl1-s332)
+
+[![asciicast](https://asciinema.org/a/C8jUPPAy1S37ZGXYlgJHF9tUH.png)](https://asciinema.org/a/C8jUPPAy1S37ZGXYlgJHF9tUH)
