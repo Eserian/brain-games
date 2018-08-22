@@ -1,7 +1,7 @@
 import readlineSync from 'readline-sync';
-import welcome from '../welcome';
-import getRandomNum from '../random';
-import isEven from '../evenCheck';
+import welcome from './welcome';
+import getRandomNum from './random';
+import isEven from './evenCheck';
 
 const maxSteps = 3;
 
