@@ -1,6 +1,6 @@
 {
   "name": "asdsds",
-  "version": "1.0.8",
+  "version": "1.0.11",
   "description": "First Hexlet project",
   "main": "",
   "files": [
@@ -19,11 +19,12 @@
   },
   "author": "Evgenii Shevchenko",
   "license": "ISC",
+  "bin": {
+    "brain-games": "dist/bin/brain-games.js",
+    "brain-even": "dist/bin/brain-even.js"
+  },
   "dependencies": {
     "readline-sync": "^1.4.9"
-  },
-  "bin": {
-    "brain-games": "dist/bin/brain-games.js"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
