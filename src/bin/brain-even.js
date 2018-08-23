@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import letsPlay from '../gameDispatcher';
+import letsPlay from '../games/even';
 
 letsPlay();
