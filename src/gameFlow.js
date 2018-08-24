@@ -1,9 +1,9 @@
 import readlineSync from 'readline-sync';
 import welcome from './welcome';
 
-export default (textRule, gameSet) => {
+export default (rule, gameSet) => {
   const maxSteps = 3;
-  const userName = welcome(textRule);
+  const userName = welcome(rule);
   const game = (step) => {
     if (step === maxSteps) {
       console.log(`Congratulations, ${userName}`);

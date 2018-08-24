@@ -1,5 +1,5 @@
-import Dispatcher from '../gameDispatcher';
-import getRandomNum from '../random';
+import gameFlow from '../gameFlow';
+import getRandomNum from '../utils';
 
 const rule = 'What is the result of the expression?';
 
@@ -26,4 +26,4 @@ const calcSet = () => {
   return [question, answer];
 };
 
-export default () => Dispatcher(rule, calcSet);
+export default () => gameFlow(rule, calcSet);

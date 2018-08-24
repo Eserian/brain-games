@@ -1,8 +1,14 @@
-import Dispatcher from '../gameDispatcher';
-import getRandomNum from '../random';
-import getGcd from '../getGCD';
+import gameFlow from '../gameFlow';
+import getRandomNum from '../utils';
 
 const rule = 'Find the greatest common divisor of given numbers.';
+
+const getGcd = (a, b) => {
+  if (b === 0) {
+    return Math.abs(a);
+  }
+  return getGcd(b, a % b);
+};
 
 const gcdSet = () => {
   const firstNum = getRandomNum(1, 100);
@@ -12,4 +18,4 @@ const gcdSet = () => {
   return [question, answer];
 };
 
-export default () => Dispatcher(rule, gcdSet);
+export default () => gameFlow(rule, gcdSet);
