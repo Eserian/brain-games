@@ -3,32 +3,32 @@ import getRandomNum from '../utils';
 
 const rule = 'Balance the given number.';
 
-const strBalance = (str) => {
-  let result = '';
+const strToArr = (str) => {
   const arr = [];
   for (let i = 0; i < str.length; i += 1) {
     arr[i] = Number(str[i]);
   }
-  const arrBalance = (array) => {
-    const bArr = array;
-    bArr.sort();
-    const lastElement = bArr.length - 1;
-    const firstElement = 0;
-    if (bArr[lastElement] - bArr[firstElement] > 1) {
-      bArr[firstElement] += 1;
-      bArr[lastElement] -= 1;
-      return arrBalance(bArr);
-    }
-    return bArr;
-  };
-  arrBalance(arr);
-  result = arr.join('');
-  return result;
+  return arr;
 };
+
+const arrBalance = (arrayToBalance) => {
+  const bArr = arrayToBalance;
+  bArr.sort();
+  const lastElement = bArr.length - 1;
+  const firstElement = 0;
+  if (bArr[lastElement] - bArr[firstElement] > 1) {
+    bArr[firstElement] += 1;
+    bArr[lastElement] -= 1;
+    return arrBalance(bArr);
+  }
+  return bArr;
+};
+
+const arrToStr = array => array.join('');
 
 const balanceSet = () => {
   const question = getRandomNum(1, 10000);
-  const answer = strBalance(String(question));
+  const answer = arrToStr(arrBalance(strToArr(String(question))));
   return [question, answer];
 };
 
