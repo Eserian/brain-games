@@ -6,12 +6,12 @@
 
 [![Build Status](https://travis-ci.org/Eserian/project-lvl1-s332.svg?branch=master)](https://travis-ci.org/Eserian/project-lvl1-s332)
 
-[![asciicast](https://asciinema.org/a/DWY6C2g3lJbXuEDUKDs6uvQEN.png)](https://asciinema.org/a/DWY6C2g3lJbXuEDUKDs6uvQEN)
+[![asciicast](https://asciinema.org/a/Zf34P2r57cddshKR4ioVSGy3k.png)](https://asciinema.org/a/Zf34P2r57cddshKR4ioVSGy3k)
 
 [![asciicast](https://asciinema.org/a/FLLAELIOJZMAMMldGVCY93DZ1.png)](https://asciinema.org/a/FLLAELIOJZMAMMldGVCY93DZ1)
 
 [![asciicast](https://asciinema.org/a/QUvx7L8ugoj1Ub8Zk3h26zxtn.png)](https://asciinema.org/a/QUvx7L8ugoj1Ub8Zk3h26zxtn)
 
-[![asciicast](https://asciinema.org/a/WpLeFvChvNDDkGfUljRbQAV4I.png)](https://asciinema.org/a/WpLeFvChvNDDkGfUljRbQAV4I)
+[![asciicast](https://asciinema.org/a/fAeBbLYndXTUNVKPqwaLvY7Eg.png)](https://asciinema.org/a/fAeBbLYndXTUNVKPqwaLvY7Eg)
 
-[![asciicast](https://asciinema.org/a/HRXmHeZpGqIfIhLZImzcne2ry.png)](https://asciinema.org/a/HRXmHeZpGqIfIhLZImzcne2ry)
+[![asciicast](https://asciinema.org/a/FFWjAtMj4VGgWzVzkKxjTg1Kn.png)](https://asciinema.org/a/FFWjAtMj4VGgWzVzkKxjTg1Kn)

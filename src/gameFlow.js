@@ -1,8 +1,15 @@
 import readlineSync from 'readline-sync';
-import welcome from './welcome';
+
+const maxSteps = 3;
+
+const welcome = (rule) => {
+  console.log(`Welcome to the Brain Games! \n${rule}`);
+  const Name = readlineSync.question('May I have your name? ');
+  console.log(`Hi, ${Name}!`);
+  return Name;
+};
 
 export default (rule, gameSet) => {
-  const maxSteps = 3;
   const userName = welcome(rule);
   const game = (step) => {
     if (step === maxSteps) {
