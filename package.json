@@ -1,6 +1,6 @@
 {
   "name": "ese-brain-games",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "First Hexlet project",
   "main": "",
   "files": [
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Eserian/brain-games.git"
+    "url": "git+https://github.com/Eserian/brain-games"
   },
   "author": "Evgenii Shevchenko",
   "license": "ISC",

@@ -1,8 +1,7 @@
 # Brain-games
 
-[![Maintainability](https://codeclimate.com/github/Eserian/project-lvl1-s332/badges/gpa.svg)](https://codeclimate.com/github/Eserian/project-lvl1-s332)
-[![Issue Count](https://codeclimate.com/github/Eserian/project-lvl1-s332/badges/issue_count.svg)](https://codeclimate.com/github/Eserian/project-lvl1-s332)
-[![Build Status](https://travis-ci.org/Eserian/frontend-project-lvl1.svg?branch=master)](https://travis-ci.org/Eserian/frontend-project-lvl1)
+[![Maintainability](https://api.codeclimate.com/v1/badges/46a435a2358deb85b0a4/maintainability)](https://codeclimate.com/github/Eserian/brain-games/maintainability)
+[![Build Status](https://travis-ci.org/Eserian/brain-games.svg?branch=master)](https://travis-ci.org/Eserian/brain-games)
 ## Setup
     $ sudo npm install -g ese-brain-games
 
@@ -10,7 +9,8 @@
     $ brain-games
 
 ## List of games
-- brain-calculate
+- brain-balance
+- brain-calc
 - brain-even
 - brain-gcd
 - brain-prime
