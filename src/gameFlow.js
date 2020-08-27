@@ -4,9 +4,9 @@ const maxSteps = 3;
 
 const welcome = (rule) => {
   console.log(`Welcome to the Brain Games! \n${rule}`);
-  const Name = readlineSync.question('May I have your name? ');
-  console.log(`Hi, ${Name}!`);
-  return Name;
+  const name = readlineSync.question('May I have your name? ');
+  console.log(`Hi, ${name}!`);
+  return name;
 };
 
 export default (rule, gameSet) => {
@@ -16,7 +16,7 @@ export default (rule, gameSet) => {
       console.log(`Congratulations, ${userName}`);
       return;
     }
-    const [question, answer] = gameSet();
+    const { question, answer } = gameSet();
     console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question('Your answer: ');
     if (userAnswer === answer) {

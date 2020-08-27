@@ -15,7 +15,8 @@ const gcdSet = () => {
   const secondNum = getRandomNum(1, 100);
   const question = `${firstNum} ${secondNum}`;
   const answer = String(getGcd(firstNum, secondNum));
-  return [question, answer];
+
+  return { question, answer };
 };
 
 export default () => gameFlow(rule, gcdSet);

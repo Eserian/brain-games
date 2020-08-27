@@ -7,17 +7,15 @@ const progressionLength = 10;
 
 const arifmProgressionGen = (start, step, length) => {
   const result = [];
+
   for (let i = 0; i < length; i += 1) {
     result[i] = start + step * i;
   }
+
   return result;
 };
 
-const makeQuestion = (arr, indexToChange) => {
-  const arrForQuestion = arr.slice();
-  arrForQuestion[indexToChange] = '..';
-  return arrForQuestion.join(' ');
-};
+const makeQuestion = (arr, indexToChange) => arr.map((item, i) => (i === indexToChange ? '..' : item));
 
 const progressionSet = () => {
   const progressionStart = getRandomNum(1, 100);
@@ -26,7 +24,8 @@ const progressionSet = () => {
   const numForQuestion = getRandomNum(0, 9);
   const question = makeQuestion(progression, numForQuestion);
   const answer = String(progression[numForQuestion]);
-  return [question, answer];
+
+  return { question, answer };
 };
 
 export default () => gameFlow(rule, progressionSet);

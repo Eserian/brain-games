@@ -6,9 +6,11 @@ const rule = 'What is the result of the expression?';
 const calcSet = () => {
   let question;
   let answer;
+
   const firstNum = getRandomNum(1, 100);
   const secondNum = getRandomNum(1, 100);
   const operatorSelect = getRandomNum(1, 3);
+
   switch (operatorSelect) {
     case 1:
       question = `${firstNum} + ${secondNum}`;
@@ -23,7 +25,7 @@ const calcSet = () => {
       answer = String(firstNum * secondNum);
       break;
   }
-  return [question, answer];
+  return { question, answer };
 };
 
 export default () => gameFlow(rule, calcSet);
